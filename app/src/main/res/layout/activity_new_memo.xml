@@ -14,15 +14,11 @@
         android:hint="Memo"/>
 
 
-        <com.teamwork.autocomplete.view.MultiAutoCompleteEditText
-            android:id="@+id/mac_tags"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:completionThreshold="1"
-            android:hint="Tags"
-            android:lines="1"
-            android:maxLines="1" />
-
+    <AutoCompleteTextView
+        android:id="@+id/actv_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tag"/>
 
     <Button
         android:id="@+id/bt_add_memo"
